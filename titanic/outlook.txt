@@ -1,0 +1,7 @@
+This is a very naïve implementation !!!
+
+
+- Classifier used = the worst: Least Square (which is a linear classifier). Better classifiers: Support Vector machine, Adaboost, Neural nets,...
+- Feature extraction: ignoring and taking certain fields one by one
+- Dealing with outliers: while training, igoring rows with no data at interesting fields, while testing: considering dead if no data at interesting fields
+- Using loops everywhere
